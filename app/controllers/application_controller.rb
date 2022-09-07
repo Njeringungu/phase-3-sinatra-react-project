@@ -11,8 +11,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/appointments" do
-    Appointment.all.to_json
+    Appointment.all.to_json(include: { doctor: { include: :patients } })
+
   end
 
-
+#   post '/appointment' do 
+#     newAppointment = Appointment.create
+# end
 end
