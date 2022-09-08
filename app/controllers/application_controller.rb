@@ -32,7 +32,11 @@ class ApplicationController < Sinatra::Base
     appointment.to_json
   end
 
-
+  delete "/appointments/:id" do
+    appointment = Appointment.find(params[:id])
+      appointment.destroy
+      appointment.to_json
+  end
 
   get "/patients" do
     patients = Patient.all.to_json
