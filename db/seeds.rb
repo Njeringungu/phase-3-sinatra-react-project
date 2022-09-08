@@ -37,27 +37,27 @@ Appointment.create([
    {
     doctor_id: 1,
     patient_id: 1,
-    day: "Monday"
+    date: 10/12/2022
    },
    {
     doctor_id: 1,
     patient_id: 3,
-    day: "Monday"
+    date: 10/12/2022
    },
    {
     doctor_id: 3,
     patient_id: 2,
-    day: "Tuesday"
+    date: 10/12/2022
    },
    {
     doctor_id: 3,
     patient_id: 4,
-    day: "Friday"
+    date: 12/12/2022
    },
    {
     doctor_id: 1,
     patient_id: 4,
-    day: "Friday"
+    date: 11/12/2022
    }
 ])
 puts "✅ Done seeding!"
