@@ -1,3 +1,23 @@
+
+# Project 
+- MY-DOC
+
+# Description
+
+-An clinic appointment booking app,where patients can schedule clinic visits with available specialists.
+
+# Features
+-CRUD actions
+-It has three models which include Doctor,Patient and Appoitment.
+-MY-DOC app uses active reord assosiations.The associations  are follows;
+
+- Doctor has many appointments,has many patients through appointments.
+- Patient has many appointments,has many doctors through appointments
+- Apppointments belongs to doctor and patient.
+
+# Front End Link: https://mydoc-app.herokuapp.com/
+
+
 # Phase 3 Project Guidelines
 
 ## Learning Goals
